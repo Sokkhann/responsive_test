@@ -23,5 +23,6 @@
 @media (max-width: 800px) {
     .container {
         flex-direction: row;
+        font-size: 12px;
     }
 }
