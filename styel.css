@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+}
+
+.left-section {
+    background-color: white;
+    padding: 10px;
+    flex: 50%;
+}
+
+.right-section {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+}
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: row;
+    }
+}
